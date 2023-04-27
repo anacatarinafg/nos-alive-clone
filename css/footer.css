@@ -1,0 +1,50 @@
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3.5em 0;
+}
+.footer__buttons {
+  display: flex;
+}
+.footer__button {
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+.footer__button:first-child {
+  background-color: #f9dc0b;
+  color: #fff;
+}
+.footer__awards {
+  padding: 1em;
+}
+.footer__links {
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  text-transform: capitalize;
+}
+.footer__link {
+}
+.footer__book {
+  padding: 1em;
+}
+.footer__book:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+.footer__name,
+.footer__description {
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer__awards {
+        width: 100%;
+        padding: 1em;
+      }

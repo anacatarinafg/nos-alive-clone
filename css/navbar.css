@@ -1,0 +1,116 @@
+header {
+  background: url(/img/NA22_Background_LandingPage-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 0 0 1.5em 0;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  isolation: isolate;
+}
+.navbar__image {
+  width: 250px;
+}
+.navbar__links {
+}
+.navbar__list {
+  display: flex;
+}
+.navbar__item {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+}
+.navbar__item:last-child {
+  background-color: #f9dc0b;
+  color: #000;
+}
+.navbar__link {
+}
+.navbar__extras {
+  display: flex;
+  gap: 1em;
+  color: #fff;
+}
+.navbar__select {
+  background-color: #f9dc0b;
+  color: #000;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+.navbar__selectOption {
+}
+.navbar__media {
+  display: flex;
+  gap: 1em;
+}
+.navbar__mediaItem {
+  border: 1px solid #fff;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+.navbar__mediaList {
+}
+
+.poster {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5em;
+  isolation: isolate;
+}
+.poster__image {
+  width: 800px;
+  object-fit: cover;
+}
+.poster__button {
+  width: 300px;
+  background-color: #f9dc0b;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 0.5em;
+  box-sizing: border-box;
+  line-height: 24px;
+}
+.poster__button span {
+  margin-left: 15px;
+}
+.poster__button:hover {
+  background-color: #000;
+  color: #f9dc0b;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar__image {
+    width: 60px;
+  }
+  .navbar__list,
+  .navbar__extras {
+    display: none;
+  }
+  .poster__image {
+    width: 100%;
+  }
+}
