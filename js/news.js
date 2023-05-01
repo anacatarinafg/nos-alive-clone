@@ -3,25 +3,25 @@ const NEWS = [
     id: 1,
     title: "Ibibio sound machine confirmados no palco heikeken dos nos alive'23",
     date: "Abril 14, 2023",
-    img: "/img/NOS_ALIVE_Ambience_05.jpg",
+    img: "./img/NOS_ALIVE_Ambience_05.jpg",
   },
   {
     id: 2,
     title: "Novas confirmações para o wtf clubbing dia 6 de julho no nos alive",
     date: "Abril 13, 2023",
-    img: "/img/NOS_ALIVE_Ambience_07.jpg",
+    img: "./img/NOS_ALIVE_Ambience_07.jpg",
   },
   {
     id: 3,
     title: "Wtf clubbing com curadoria da decked out! dia 8 de julho",
     date: "Abril 13, 2023",
-    img: "/img/NOS_ALIVE_Ambience_12.jpg",
+    img: "./img/NOS_ALIVE_Ambience_12.jpg",
   },
   {
     id: 4,
     title: "Wtf clubbing com curadoria bridgetown a 7 de julho",
     date: "Abril 13, 2023",
-    img: "/img/NOS_ALIVE_AMBIENCE_HUGO_MACEDO.jpg",
+    img: "./img/NOS_ALIVE_AMBIENCE_HUGO_MACEDO.jpg",
   },
 ];
 
