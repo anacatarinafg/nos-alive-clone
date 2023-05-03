@@ -15,7 +15,7 @@
     transform: translate(0%, -1%);
 }
 .access__boxFirst {
-    background-image: url(./img/NOS_Alive_Mobilidade_Condicionada.jpg);
+    background-image: url(../img/Acesso_Especial-Mobilidade_Condicionada.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -31,7 +31,7 @@
     background-color: rgba(0, 0, 0, 0.55);
 }
 .access__boxSecond {
-    background-image: url(./img/NOS_Alive_Gravidas.jpg);
+    background-image: url(../img/Acesso_Especial-Area_Futuras_Mamas.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
